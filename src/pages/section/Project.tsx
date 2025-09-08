@@ -1,9 +1,6 @@
 import { useEffect, useRef } from "react";
 import { usePage } from "../../utils/Context/page-context-provider";
 import { ExpertTypeList, useExpertise } from "../../utils/Context/expertise-context-provider";
-import GeneralButton from "../../components/button/general-button";
-import { LucideArrowRight } from "lucide-react";
-import OutlinedButton from "../../components/button/outlined-button";
 
 const Project = () =>{
         const { setCurrentPage } = usePage();
