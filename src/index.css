@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+/* === Custom Fonts === */
+@font-face {
+  font-family: 'montserrat'; 
+  src: url('/assets/fonts/montserrat/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-display: swap;  
+}
+
+@font-face {
+  font-family: 'orbiter'; 
+  src: url('/assets/fonts/orbiter/TASAOrbiter-VariableFont_wght.ttf') format('truetype');
+  font-display: swap;  
+}
+
+/* Poppins Regular */
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/poppins/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Poppins Italic */
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/poppins/Poppins-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Poppins Medium */
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/poppins/Poppins-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Poppins SemiBold */
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/poppins/Poppins-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Poppins Bold */
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/poppins/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Poppins ExtraBold */
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/poppins/Poppins-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+/* Poppins Black */
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/fonts/poppins/Poppins-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+/* === Base Rendering Optimizations === */
+
+html{
+  scroll-behavior: smooth;
+}
+
+:root {
+  scroll-behavior: smooth;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* === Theme Variables === */
+
+@theme {
+  
+  /* Colors */
+  --color-accent: #e8d0aa;
+  --color-primary: #f7d279;
+  --color-light-foreground: #191d28;
+  --color-dark-foreground: #161922;
+  --color-white: #FAFDFF;
+  --color-black: #000005;
+
+  /* Fonts */
+  --font-poppins: "poppins", sans-serif;
+  --font-montserrat: "montserrat", sans-serif;
+  --font-orbiter: "orbiter", sans-serif;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
